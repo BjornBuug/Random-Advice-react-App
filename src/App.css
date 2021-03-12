@@ -5,10 +5,7 @@
 }
 
 body {
-  background-image: url(./Picture/bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #F3F4FB;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,16 +14,17 @@ body {
 }
 
 .card {
-  background-color: #4DC0B2;
-  height: 200px;
+  background-color: #fff;
+  height: 300px;
   width: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   border-radius: 2%;
-  color: #fff;
+  color: #344252;
   margin: auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 .heading {
@@ -49,17 +47,17 @@ body {
   cursor: pointer;
   text-transform: uppercase;
   padding: 10px 10px;
-  font-size: 10px;
+  font-size: 13px;
   opacity: 1;
   background-color: #ffffff;
   border: 1px solid #333;
   margin-top: 10px;
-  transition: background 1s ease;
+  transition: background 4s ;
   font-weight: 600;
 }
 
 .button:hover {
-background: #333;
+background: #344252;
 color: #fff;
 letter-spacing: 2px;
 }
